@@ -1,4 +1,3 @@
-// src/store/reducers.js
 import { combineReducers } from 'redux';
 import {
   ADD_ROW,
