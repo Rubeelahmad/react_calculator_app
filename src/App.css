@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.row.disabled {
+  opacity: 0.5;
+}
+
+.row input {
+  margin-left: 8px;
+  width: 50px;
+}
+
+.row button {
+  margin-right: 8px;
+}
+
+.result {
+  margin-top: 16px;
+  font-weight: bold;
+}
